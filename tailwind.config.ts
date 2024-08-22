@@ -13,6 +13,16 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        biryani: ['var(--font-biryani)', 'biryani'],
+        archivo: ['var(--font-archivo)', 'archivo'],
+      },
+      colors: {
+        white1: "#ffffff",
+        red100: "#E12533",
+        grey50: "#808080",
+        navyBlue100: "#072267"
+      }
     },
   },
   plugins: [],
