@@ -18,10 +18,19 @@ const config: Config = {
         archivo: ['var(--font-archivo)', 'archivo'],
       },
       colors: {
+        gradient1: "linear-gradient(108.9deg, #614BC3 7.52%, #03A7B4 113.36%)",
         white1: "#ffffff",
         red100: "#E12533",
+        red25: "#F7C9CC",
+        red_50: "#701219",
+        red_75: "#A91C26",
+        grey5: "#F2F2F2",
+        grey10: "#EFEFEF",
         grey50: "#808080",
-        navyBlue100: "#072267"
+        grey70: "#4B4B4B",
+        navyBlue100: "#072267",
+        navyBlue25: "#C1C8D9",
+        navyBlue_75: "#05194D",
       }
     },
   },

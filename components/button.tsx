@@ -8,13 +8,13 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   py?: string;
   px?: string;
   w?: string;
-  border?: string;
   href?: string;
   btnText?: string;
   gap?: string;
   icon?: any;
   type?: "submit" | "button" | "reset";
   fontSize?: string;
+  additionalStyles?: string;
   onClick?: () => void;
 }
 
@@ -25,11 +25,11 @@ export const Button = ({
   py,
   px,
   w,
-  border,
   href,
   type,
   onClick,
   fontSize,
+  additionalStyles,
   ...props
 }: ButtonProps) => {
   return (
@@ -40,9 +40,9 @@ export const Button = ({
           onClick={onClick}
           className={`${bg || "bg-red100"} ${py || "py-2"} ${
             px || "px-4"
-          } rounded-md ${fontSize || "text-lg"} ${border || 'border-0'} ${color || "text-white1"} ${
-            w || "w-full"
-          } font-semibold`}
+          } rounded-md ${fontSize || "text-lg"} ${color || "text-white1"} ${w || "w-full"} font-semibold ${
+            additionalStyles || ""
+          }`}
           {...props}
         >
           {children}
@@ -54,7 +54,7 @@ export const Button = ({
             px || "px-8"
           } rounded-md font-medium ${fontSize || "text-lg"}  ${
             color || "text-white1"
-          }  font-semibold `}
+          }  font-semibold ${additionalStyles || ""}`}
         >
           {children}
         </Link>
