@@ -2,18 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
+/* @layer utilities {
   .bg-stripes {
     background-image: repeating-linear-gradient(
       45deg,
       red,
-      /* red 2px, */
       red 2px,
       white 2px,
       white 2px,
-      /* rgba(0, 0, 0, 0.1) 2px,
-      rgba(0, 0, 0, 0.1) 4px */
     );
     border-radius: 50%;
   }
-}
+} */
