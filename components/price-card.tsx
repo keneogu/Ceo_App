@@ -56,7 +56,7 @@ const PricingCard = ({
         </div>
       </div>
 
-      <div className="w-full flex justify-between items-center mb-6">
+      <div className="w-full flex flex-col md:flex-row justify-between items-center mb-6">
           <p
             className={`text-xl lg:text-4xl font-semibold ${
               bgColor === "bg-red25"

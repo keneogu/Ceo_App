@@ -1,5 +1,11 @@
 import feature1 from "@/assets/feature1.png";
+import feature2 from "@/assets/feature2.png";
+import feature3 from "@/assets/feature3.png";
+import feature4 from "@/assets/feature4.png";
+import feature5 from "@/assets/feature5.png";
+import feature6 from "@/assets/feature6.png";
 import mobileFeature1 from "@/assets/mobile-feature1.png";
+import team from "@/assets/team.jpg";
 
 export const featuresCardData = [
   {
@@ -12,7 +18,7 @@ export const featuresCardData = [
       "Stay on top of your finances with real-time updates and reduce the risk of errors or oversights.",
   },
   {
-    image: feature1,
+    image: feature2,
     mobileImg: mobileFeature1,
     title: "Add and track sales and expenses",
     description:
@@ -21,7 +27,7 @@ export const featuresCardData = [
       "Stay on top of your finances with real-time updates and reduce the risk of errors or oversights.",
   },
   {
-    image: feature1,
+    image: feature3,
     mobileImg: mobileFeature1,
     title: "Add and track sales and expenses",
     description:
@@ -30,7 +36,7 @@ export const featuresCardData = [
       "Stay on top of your finances with real-time updates and reduce the risk of errors or oversights.",
   },
   {
-    image: feature1,
+    image: feature4,
     mobileImg: mobileFeature1,
     title: "Add and track sales and expenses",
     description:
@@ -39,7 +45,7 @@ export const featuresCardData = [
       "Stay on top of your finances with real-time updates and reduce the risk of errors or oversights.",
   },
   {
-    image: feature1,
+    image: feature5,
     mobileImg: mobileFeature1,
     title: "Add and track sales and expenses",
     description:
@@ -48,7 +54,7 @@ export const featuresCardData = [
       "Stay on top of your finances with real-time updates and reduce the risk of errors or oversights.",
   },
   {
-    image: feature1,
+    image: feature6,
     mobileImg: mobileFeature1,
     title: "Add and track sales and expenses",
     description:
@@ -94,3 +100,48 @@ export const frequentQuestions: Record<string, string[]> = {
     "Lorem ipsum ghtd6y ggheyyth gfgnte gyrerytg g6fukgj,ey ygfru"
   ]
 }
+
+export const teamStaff = [ 
+  {
+    image: team,
+    name: "John Doe",
+    description:
+      "Co-founder & Chief Executive Officer (CEO)",
+  },
+  {
+    image: team,
+    name: "John Doe",
+    description:
+      "Co-founder & Chief Financial Officer (CFO)",
+  },
+  {
+    image: team,
+    name: "John Doe",
+    description:
+      "Chief Operating Officer (COO)",
+  },
+  {
+    image: team,
+    name: "John Doe",
+    description:
+      "Chief Technology Officer (CTO)",
+  },
+  {
+    image: team,
+    name: "John Doe",
+    description:
+      "Chief Marketing Officer (CMO)",
+  },
+  {
+    image: team,
+    name: "John Doe",
+    description:
+      "Chief Product Officer (CPO)",
+  },
+  {
+    image: team,
+    name: "John Doe",
+    description:
+      "Chief Human Resources Officer (CHRO)",
+  },
+]
