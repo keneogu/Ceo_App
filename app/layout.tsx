@@ -1,9 +1,17 @@
 import type { Metadata } from "next";
 import { Archivo, Biryani } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
-const biryani = Biryani({ weight: ["200", "300", "400", "600", "700", "800", "900"], subsets: ["latin"] });
-const archivo = Archivo({ weight: ["200", "300", "400", "600", "700", "800", "900"], subsets: ["latin"] });
+const biryani = Biryani({
+  weight: ["200", "300", "400", "600", "700", "800", "900"],
+  subsets: ["latin"],
+});
+const archivo = Archivo({
+  weight: ["200", "300", "400", "600", "700", "800", "900"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Ceo App",
@@ -17,7 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${biryani.className} ${archivo.className}`}>{children}</body>
+      <body className={`${biryani.className} ${archivo.className}`}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
