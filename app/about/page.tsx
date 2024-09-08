@@ -1,4 +1,5 @@
 import HeroSection from '@/components/about/hero-section'
+import Manage from '@/components/about/manage'
 import Mission from '@/components/about/mission'
 import Team from '@/components/about/team'
 import React from 'react'
@@ -9,6 +10,7 @@ const AboutUs = () => {
       <HeroSection />
       <Mission />
       <Team />
+      <Manage />
     </div>
   )
 }
