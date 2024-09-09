@@ -1,7 +1,6 @@
 import React from "react";
 import Wrapper from "../wrapper";
 import Image from "next/image";
-import team from "@/assets/team.jpg";
 import { teamStaff } from "@/utils/constants";
 
 const Team = () => {
